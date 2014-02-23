@@ -1,0 +1,47 @@
+%HUMAN_READABLE%
+=================
+
+Here is a %HUMAN_READABLE%
+
+    
+    
+Demonstration
+-------------
+
+A simple demo of the widget is provided in ./%FILE_NAME%_demo
+
+
+Using it in a project
+---------------------
+
+Include the %FILE_NAME%.pri file in the QMake project file. 
+All the required files are in ./src
+
+
+Installing as a Qt Designer/Creator Plugin
+------------------------------------------
+
+The sources for the designer plugin are in ./%FILE_NAME%_designer_plugin
+
+Compile the library and install in
+(Qt SDK)/Tools/QtCreator/bin/designer/
+(Qt SDK)/(Qt Version)/(Toolchain)/plugins/designer
+
+cd %FILE_NAME%_designer_plugin && qmake && make && make install
+
+(make install may require root access)
+
+
+Latest Version
+--------------
+
+The latest version of the sources can be found at the following locations
+https://github.com/mbasaglia/%REPO%
+git://github.com/mbasaglia/%REPO%.git
+
+
+License
+-------
+
+LGPLv3+, See COPYING
+Copyright (C) %COPY_YEARS% Mattia Basaglia <mattia.basaglia@gmail.com>
